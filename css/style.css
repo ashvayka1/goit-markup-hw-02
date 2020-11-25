@@ -63,6 +63,7 @@ body {
   color: var(--title-text-color);
 }
 
-.parts-item > a:hover {
+.parts-item > a:hover,
+.parts-item > a:focus {
   color: var(--accent-color);
 }
