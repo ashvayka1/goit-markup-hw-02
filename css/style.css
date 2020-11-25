@@ -20,12 +20,12 @@ body {
   color: var(--accent-color);
 }
 
-.links a {
+.site-nav a {
   color: var(--title-text-color);
 }
 
-.links a:hover,
-.links a:focus {
+.site-nav a:hover,
+.site-nav a:focus {
   color: var(--accent-color);
 }
 
@@ -35,6 +35,10 @@ body {
 
 .contacts a:hover,
 .contacts a:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .portfolio.current {
   color: var(--accent-color);
 }
 
