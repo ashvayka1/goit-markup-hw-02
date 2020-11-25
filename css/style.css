@@ -63,11 +63,21 @@ body {
 .name-project {
   color: var(--title-text-color);
 }
-.title-portfolio {
+.portfolio-title {
   color: var(--title-text-color);
 }
 
-.parts-item > a:hover,
+/* .parts-item > a:hover,
 .parts-item > a:focus {
   color: var(--accent-color);
+} */
+
+/* button */
+.button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
