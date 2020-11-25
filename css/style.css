@@ -1,0 +1,68 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+.logo {
+  color: #000000;
+}
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+.links a {
+  color: var(--title-text-color);
+}
+
+.links a:hover,
+.links a:focus {
+  color: var(--accent-color);
+}
+
+.contacts a {
+  color: var(--primary-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+.section-title,
+.list-item {
+  color: var(--title-text-color);
+}
+
+.direction {
+  color: var(--white-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.contacts-list a {
+  color: var(--primary-text-color);
+}
+
+/* portfolio name project */
+.name-project {
+  color: var(--title-text-color);
+}
+.title-portfolio {
+  color: var(--title-text-color);
+}
+
+.parts-item > a:hover {
+  color: var(--accent-color);
+}
