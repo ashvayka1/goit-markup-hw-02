@@ -15,19 +15,32 @@ a {
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
-  font-family: 'dRoboto';
+  font-family: 'Roboto';
 }
 
-.logo {
+.header .logo {
   color: #000000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
-
+.footer .logo {
+  color: var(--white-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
 .logo > span {
   color: var(--accent-color);
 }
 
 .site-nav a {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav a:hover,
@@ -37,24 +50,76 @@ body {
 
 .contacts a {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .contacts a:hover,
 .contacts a:focus {
   color: var(--accent-color);
 }
-
-.site-nav .portfolio.current {
+.hero > h1 {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.button.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.site-nav .current {
   color: var(--accent-color);
 }
 
-.section-title,
-.list-item {
+.feature-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.feature-title > p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.what-we-do {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.our-team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.list-item > h3 {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.list-item > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .direction {
   color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer {
@@ -69,16 +134,28 @@ body {
 .name-project {
   color: var(--title-text-color);
 }
-.portfolio-title {
-  color: var(--title-text-color);
-}
 
+.name-project {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.type-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
 /* button */
 .button {
   background-color: #f5f4fa;
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
