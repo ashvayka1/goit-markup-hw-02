@@ -43,8 +43,8 @@ body {
   line-height: 1.14;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav-list a:hover,
+.site-nav-list a:focus {
   color: var(--accent-color);
 }
 
