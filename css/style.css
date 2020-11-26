@@ -4,12 +4,18 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
 }
+
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
+  font-family: 'dRoboto';
 }
 
 .logo {
@@ -66,11 +72,6 @@ body {
 .portfolio-title {
   color: var(--title-text-color);
 }
-
-/* .parts-item > a:hover,
-.parts-item > a:focus {
-  color: var(--accent-color);
-} */
 
 /* button */
 .button {
